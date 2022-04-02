@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { CvComponent } from './cv/cv.component';
 
 const routes: Routes = [
-  { path: '',   redirectTo: '/cv', pathMatch: 'full' },
+  { path: '',   redirectTo: 'cv', pathMatch: 'full' },
   { path: 'cv', component: CvComponent },
 ];
 
