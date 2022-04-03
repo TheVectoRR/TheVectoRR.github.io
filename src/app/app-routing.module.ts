@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CvComponent } from './cv/cv.component';
+import { ResumeComponent } from './resume/resume.component';
 
 const routes: Routes = [
-  { path: '',   redirectTo: 'cv', pathMatch: 'full' },
-  { path: 'cv', component: CvComponent },
+  { path: '',   redirectTo: 'resume', pathMatch: 'full' },
+  { path: 'resume', component: ResumeComponent },
 ];
 
 @NgModule({
