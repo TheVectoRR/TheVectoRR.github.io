@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { CvComponent } from './cv.component';
+import { AppComponent } from '../app.component';
 
 describe('CvComponent', () => {
   let component: CvComponent;
@@ -22,4 +23,12 @@ describe('CvComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should render title', () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    fixture.detectChanges();
+    const compiled = fixture.nativeElement as HTMLElement;
+    expect(compiled.querySelector('.navbar-brand')?.textContent).toContain('Jonathan Oudshoorn');
+  });
+
 });
