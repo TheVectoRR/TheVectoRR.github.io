@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Observable, of } from 'rxjs';
 
 @Component({
   selector: 'app-resume',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ResumeComponent implements OnInit {
 
-  constructor() { }
+  public jobs$: Observable<string[]> = of([]);
 
-  ngOnInit(): void {
+  constructor(private http: HttpClient) {
+  }
+
+  public ngOnInit(): void {
+    this.jobs$ = this.http.get<string[]>('./assets/experience.json')
   }
 
 }

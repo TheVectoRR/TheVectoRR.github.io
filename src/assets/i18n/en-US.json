@@ -3,5 +3,13 @@
   "nav.resume": "Resume",
   "personal_info_text": "I am an outgoing and energetic (ask anybody) young professional, seeking a career that fits my professional skills, personality, and murderous tendencies. My squid-like head is a masterful problem solver and inspires fear in who gaze upon it. I can bring world domination to your organization.",
   "language.english": "English",
-  "language.dutch": "Dutch"
+  "language.dutch": "Dutch",
+
+  "experience.craftsmen.title": "Software Developer at Craftsmen",
+  "experience.craftsmen.description": "As a software developer I was responsible for",
+  "experience.craftsmen.time_spent": "October 2016 - June 2022",
+
+  "experience.ns.title": "Full stack Developer at NS",
+  "experience.ns.description": "As a Full stack software Developer I worked with Angular, rxjs and java",
+  "experience.ns.time_spent": "September 2017 - March 2020"
 }
