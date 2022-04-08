@@ -7,9 +7,15 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class CvSectionComponent implements OnInit {
 
-  @Input() title = '';
-  @Input() description = '';
-  @Input() timeSpent = '';
+  @Input() set job(value: string) {
+    this.titleI18Key = `experience.${value}.title`;
+    this.descriptionI18Key = `experience.${value}.description`;
+    this.timeSpentI18Key = `experience.${value}.time_spent`;
+  }
+
+  titleI18Key = '';
+  descriptionI18Key = '';
+  timeSpentI18Key = '';
 
   constructor() { }
 
