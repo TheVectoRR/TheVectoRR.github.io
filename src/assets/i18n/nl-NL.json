@@ -3,10 +3,10 @@
     "blogs": "Blogs",
     "resume": "Resume"
   },
-  "personal_info_text": "Ik ben een extraverte en energieke (vraag het aan iedereen) jonge professional, op zoek naar een carrière die past bij mijn professionele vaardigheden, persoonlijkheid en moorddadige neigingen. Mijn inktvisachtige hoofd is een meesterlijke probleemoplosser en wekt angst in wie ernaar kijken. Ik kan wereldheerschappij naar uw organisatie brengen.",
   "language": {
-    "english": "Engels",
-    "dutch": "Nederlands"
+    "english": "English",
+    "dutch": "Nederlands",
+    "hebrew": "עברית"
   },
   "experience": {
     "craftsmen": {
@@ -21,5 +21,7 @@
       "description": "Als een Full stack software Developer Ik heb veel gewerkt met Angular, rxjs en java",
       "time_spent": "September 2017 - March 2020"
     }
-  }
+  },
+  "personal.info_text": "Ik ben een extraverte en energieke (vraag het aan iedereen) jonge professional, op zoek naar een carrière die past bij mijn professionele vaardigheden, persoonlijkheid en moorddadige neigingen. Mijn inktvisachtige hoofd is een meesterlijke probleemoplosser en wekt angst in wie ernaar kijken. Ik kan wereldheerschappij naar uw organisatie brengen.",
+  "title.experience": "werkervaring"
 }
