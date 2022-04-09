@@ -1,16 +1,16 @@
 <div class="container">
   <div class="row justify-content-sm-center">
-    <div class="col-sm-8">
+    <div class="col">
       <app-cv-header></app-cv-header>
     </div>
   </div>
   <div class="row justify-content-sm-center">
-    <div class="col-sm-8">
+    <div class="col">
       <h2 class="fw-bold">Experience</h2>
     </div>
   </div>
   <div class="row justify-content-sm-center">
-    <div class="col-sm-8">
+    <div class="col">
       <div *ngFor="let job of (jobs$ | async)">
         <div class="mt-4">
           <app-cv-section

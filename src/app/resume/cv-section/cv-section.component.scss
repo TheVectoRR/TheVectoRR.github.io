@@ -1,9 +1,15 @@
 .job-description {
   border-left: 1px solid;
-  border-bottom: 0px solid;
 
-  @media (max-width: 768px) {
+  @media (max-width: 575px) {
     border-left: 0px solid;
-    border-bottom: 1px solid;
+    border-top: 1px solid;
   }
+}
+
+.time-spent {
+  font-size: 12px;
+  font-family: Georgia, Serif;
+  font-style: italic;
+  color: #666;
 }
