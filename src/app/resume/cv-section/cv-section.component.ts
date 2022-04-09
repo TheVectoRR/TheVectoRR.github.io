@@ -11,11 +11,13 @@ export class CvSectionComponent implements OnInit {
     this.titleI18Key = `experience.${value}.title`;
     this.descriptionI18Key = `experience.${value}.description`;
     this.timeSpentI18Key = `experience.${value}.time_spent`;
+    this.clientI18Key = `experience.${value}.client`;
   }
 
   titleI18Key = '';
   descriptionI18Key = '';
   timeSpentI18Key = '';
+  clientI18Key = '';
 
   constructor() { }
 

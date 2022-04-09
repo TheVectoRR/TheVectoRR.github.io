@@ -1,15 +1,25 @@
 {
-  "nav.blogs": "Blogs",
-  "nav.resume": "Resume",
+  "nav": {
+    "blogs": "Blogs",
+    "resume": "Resume"
+  },
   "personal_info_text": "I am an outgoing and energetic (ask anybody) young professional, seeking a career that fits my professional skills, personality, and murderous tendencies. My squid-like head is a masterful problem solver and inspires fear in who gaze upon it. I can bring world domination to your organization.",
-  "language.english": "English",
-  "language.dutch": "Dutch",
-
-  "experience.craftsmen.title": "Software Developer at Craftsmen",
-  "experience.craftsmen.description": "As a software developer I was responsible for",
-  "experience.craftsmen.time_spent": "October 2016 - June 2022",
-
-  "experience.ns.title": "Full stack Developer at NS",
-  "experience.ns.description": "As a Full stack software Developer I worked with Angular, rxjs and java",
-  "experience.ns.time_spent": "September 2017 - March 2020"
+  "language": {
+    "english": "English",
+    "dutch": "Dutch"
+  },
+  "experience": {
+    "craftsmen": {
+      "client": "Craftsmen",
+      "title": "Software Developer at Craftsmen",
+      "description": "As a software developer I was involved in different projects by a number of different clients. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "time_spent": "October 2016 - June 2022"
+    },
+    "ns": {
+      "client": "NS",
+      "title": "Full stack Developer at NS",
+      "description": "Building and setting up the ns flex webshop, Tools Angular, Typescript, rxjs, java Spring boot",
+      "time_spent": "September 2017 - March 2020"
+    }
+  }
 }

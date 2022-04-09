@@ -1,3 +1,11 @@
-<h4> {{ titleI18Key | translate }} </h4>
-<p> {{ descriptionI18Key | translate}}</p>
-<p> {{ timeSpentI18Key | translate}}</p>
+
+<div class="row">
+  <div class="col-sm-2">
+    <b>{{ clientI18Key | translate }}</b>
+    <p> {{ timeSpentI18Key | translate}}</p>
+  </div>
+  <div class="job-description col-sm-9">
+    <h4> {{ titleI18Key | translate }} </h4>
+    <p> {{ descriptionI18Key | translate}}</p>
+  </div>
+</div>

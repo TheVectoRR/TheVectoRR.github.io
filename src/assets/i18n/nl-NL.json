@@ -1,15 +1,25 @@
 {
-  "nav.blogs": "Blogs",
-  "nav.resume": "Resume",
+  "nav": {
+    "blogs": "Blogs",
+    "resume": "Resume"
+  },
   "personal_info_text": "Ik ben een extraverte en energieke (vraag het aan iedereen) jonge professional, op zoek naar een carrière die past bij mijn professionele vaardigheden, persoonlijkheid en moorddadige neigingen. Mijn inktvisachtige hoofd is een meesterlijke probleemoplosser en wekt angst in wie ernaar kijken. Ik kan wereldheerschappij naar uw organisatie brengen.",
-  "language.english": "Engels",
-  "language.dutch": "Nederlands",
-
-  "experience.craftsmen.title": "Software Developer bij Craftsmen",
-  "experience.craftsmen.description": "Als een software developer ik was verantwordelijk voor",
-  "experience.craftsmen.time": "October 2016 - June 2022",
-
-  "experience.ns.title": "Full stack Developer bij NS",
-  "experience.ns.description": "Als een Full stack software Developer Ik heb veel gewerkt met Angular, rxjs en java",
-  "experience.ns.time": "September 2017 - March 2020"
+  "language": {
+    "english": "Engels",
+    "dutch": "Nederlands"
+  },
+  "experience": {
+    "craftsmen": {
+      "client": "Craftsmen",
+      "title": "Software Developer bij Craftsmen",
+      "description": "Als een software developer ik was verantwordelijk voor",
+      "time_spent": "October 2016 - June 2022"
+    },
+    "ns": {
+      "client": "NS",
+      "title": "Full stack Developer bij NS",
+      "description": "Als een Full stack software Developer Ik heb veel gewerkt met Angular, rxjs en java",
+      "time_spent": "September 2017 - March 2020"
+    }
+  }
 }

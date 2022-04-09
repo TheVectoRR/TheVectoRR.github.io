@@ -12,9 +12,11 @@
   <div class="row justify-content-sm-center">
     <div class="col-sm-8">
       <div *ngFor="let job of (jobs$ | async)">
-        <app-cv-section
-          [job]="job"
-        ></app-cv-section>
+        <div class="mt-4">
+          <app-cv-section
+            [job]="job"
+          ></app-cv-section>
+        </div>
       </div>
     </div>
   </div>
